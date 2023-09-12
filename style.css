@@ -1,0 +1,92 @@
+body{
+    background-size: cover;
+    background-image: url(background.jpg) 
+}
+
+p {
+    margin: 0px 0px 3px 0px;
+}
+
+h2 {
+    margin: 0px 10px;
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    margin: auto;
+    text-align: center;
+    background: rgba(0, 0, 0, .7);
+    padding: 30px 120px 30px 30px;
+    -moz-border-radius: 30px 30px 30px 30px;
+    -webkit-border-radius: 30px 30px 30px 30px;
+    border-radius: 30px; /* UPDATE */
+    }
+
+.Button{
+    width: 1000px;
+    line-height: 60px;
+    margin: auto;
+    text-align: center;
+    background-color: #08da00;
+    opacity: 1 !important;
+}    
+
+
+.logo{
+    width: 250px;
+    text-align: center;
+}
+
+.logo-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: #08da00;
+}
+
+.row-left{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.scooter-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.select-scooter {
+    display: flex;
+    justify-content: flex-start;
+    padding: 0px 100px;
+    row-gap: 100px;
+}
+
+.scooter-container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.scooter-position {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hr-1 {
+    border: 12px solid orange;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.hr-2 {
+    border: 12px solid green;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.hr-3 {
+    border: 12px solid red;
+    border-radius: 5px;
+    width: 150px;
+}
+
+
